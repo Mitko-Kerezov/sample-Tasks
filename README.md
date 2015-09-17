@@ -10,23 +10,19 @@ Use this application to find-out how to implement common mobile scenarios with N
 
 1. Make sure you have the [NativeScript Command-line Interface](https://www.npmjs.com/package/nativescript) installed as well as all the prerequisites for the NativeScript development, described in the package page.
 
-2. Install the dependencies of the sample (NativeScript modules and TypeScript compiler)
+2. Install the dependencies of the sample (NativeScript modules and TypeScript compiler) and add the preferred platform-specific tools to the project library. Note that iOS development is only available with a Mac machine.
 
-       `npm install`
+       `tns install`
 
 3. Compile the TypeScript code
 
        `node_modules/typescript/bin/tsc -p ./app`
 
-4. Add the preferred platform-specific tools to the project library. Note that iOS development is only available with a Mac machine.
-
-    `tns platform add ios|android`
-
-5. [Android only] Copy the AndroidManifest.xml file to the Android project folder.
+4. [Android only] Copy the AndroidManifest.xml file to the Android project folder.
 
     `cp ./manifests/AndroidManifest.xml ./platforms/android/src/main`
 
-4. Run the project.
+5. Run the project.
 
     `tns run ios|android [--emulator]`
 
@@ -68,7 +64,6 @@ We chose an app that we know will cover a lot of useful scenarios:
   2. CSS for styling
   3. XML and data-binding for describing the UI
   4. Platform specific targeting for the Android FAB button       
-  5. 3rd party native libraries to load Telerik UI
 
 Please read the series of articles that explain how this application is being implemented - https://www.nativescript.org/blog/nativescript-open-source-sample---tasks
 
