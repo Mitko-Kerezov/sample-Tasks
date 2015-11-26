@@ -61,7 +61,8 @@ export class MainViewModel extends viewModelBaseModule.ViewModelBase {
         serviceModule.service.logout();
         navigationModule.navigate({
             moduleName: viewsModule.Views.login,
-            backstackVisible: false
+            backstackVisible: false,
+            clearHistory: true
         });
     }
 
