@@ -5,7 +5,7 @@ import pageModule = require("ui/page");
 import loginViewModelModule = require("./login-view-model")
 
 var viewModel : loginViewModelModule.LoginViewModel;
-export function navigatedTo(args: observableModule.EventData) {
+export function navigatingTo(args: observableModule.EventData) {
     var page = <pageModule.Page>args.object;
     viewModel = new loginViewModelModule.LoginViewModel();
     page.bindingContext = viewModel;

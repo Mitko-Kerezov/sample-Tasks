@@ -1,7 +1,7 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd"
       xmlns:c="components/list-picker"
       xmlns:tsd="controls/sidedrawer"
-      navigatedTo="navigatedTo" >
+      navigatingTo="navigatingTo" >
   <GridLayout rows="auto, *, auto, auto" >
     <StackLayout cssClass="sideDrawerHeader">
       <Border borderWidth="2" borderColor="#554E4A" tap="editProfileButtonTap" cssClass="sideDrawerProfilePictureContainer">

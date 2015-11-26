@@ -22,7 +22,7 @@ applicationModule.resources = {
 
     formatTasksCount: function (tasksCount: number) {
         if (tasksCount === undefined || isNaN(tasksCount)) {
-            return "";
+            return " ";
         }
 
         if (tasksCount === 0 || tasksCount > 1) {
@@ -62,7 +62,7 @@ applicationModule.resources = {
                 return project.Name;
             }
             else {
-                return "";
+                return " ";
             }
         }
 

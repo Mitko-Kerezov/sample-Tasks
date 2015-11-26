@@ -1,6 +1,6 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd"
       xmlns:common="components/common"
-      navigatedTo="navigatedTo" >
+      navigatingTo="navigatingTo" >
   <GridLayout>
     <ScrollView>
       <StackLayout>

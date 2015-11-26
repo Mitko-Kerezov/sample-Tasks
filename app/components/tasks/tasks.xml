@@ -1,4 +1,4 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" navigatedTo="navigatedTo">
+<Page xmlns="http://www.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
   <ios>
     <Page.actionBar>
       <ActionBar>
@@ -29,7 +29,7 @@
               <Label.formattedText>
                 <FormattedString>
                   <FormattedString.spans>
-                    <Span text="{{ project | getProjectName(task.Project) }}" fontAttributes="Bold, Italic" />
+                    <Span text="{{ project, project | getProjectName(task.Project) }}" fontAttributes="Bold, Italic" />
                   </FormattedString.spans>
                 </FormattedString>
               </Label.formattedText>

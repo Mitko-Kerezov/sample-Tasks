@@ -1,7 +1,7 @@
 ﻿import viewTaskViewModel = require("./view-task-view-model");
 
 var viewModel: viewTaskViewModel.ViewTaskViewModel;
-export function navigatedTo(args) {
+export function navigatingTo(args) {
     var page = args.object;
     viewModel = page.navigationContext;
     page.bindingContext = null;

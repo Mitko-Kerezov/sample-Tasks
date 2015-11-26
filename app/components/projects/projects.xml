@@ -1,5 +1,5 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd"
-      navigatedTo="navigatedTo">
+      navigatingTo="navigatingTo">
   <ios>
     <Page.actionBar>
       <ActionBar>
@@ -14,14 +14,14 @@
       <ListView.itemTemplate>
         <StackLayout cssClass="listViewItem">
           <Label text="{{ project.Name }}" cssClass="listViewItemLabel" textWrap="true" />
-          <Label cssClass="listViewItemHeader" >
-            <Label.formattedText>
+          <Label text="{{ tasksCount, tasksCount | formatTasksCount }}" cssClass="listViewItemHeader" >
+            <!--<Label.formattedText>
               <FormattedString>
                 <FormattedString.spans>
-                  <Span text="{{ tasksCount | formatTasksCount }}" fontAttributes="Bold, Italic" />
+                  <Span text="{{ tasksCount, tasksCount | formatTasksCount }}" fontAttributes="Bold, Italic" />
                 </FormattedString.spans>
               </FormattedString>
-            </Label.formattedText>
+            </Label.formattedText>-->
           </Label>
         </StackLayout>
       </ListView.itemTemplate>

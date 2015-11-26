@@ -8,7 +8,7 @@ import listPickerViewModelModule = require("../list-picker/list-picker-view-mode
 import navigationModule = require("../../utils/navigation");
 
 var viewModel = new mainViewModelModule.MainViewModel();
-export function navigatedTo(args: observableModule.EventData) {
+export function navigatingTo(args: observableModule.EventData) {
     var page = <pageModule.Page>args.object;
     page.bindingContext = null;
     page.bindingContext = viewModel;
