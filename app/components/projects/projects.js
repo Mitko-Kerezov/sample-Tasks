@@ -1,8 +1,9 @@
 var projectsViewModelModule = require("./projects-view-model");
 var viewModel = new projectsViewModelModule.ProjectsViewModel();
-function navigatedTo(args) {
+function navigatingTo(args) {
     var page = args.object;
     page.bindingContext = viewModel;
     viewModel.refresh();
 }
-exports.navigatedTo = navigatedTo;
+exports.navigatingTo = navigatingTo;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHJvamVjdHMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJwcm9qZWN0cy50cyJdLCJuYW1lcyI6WyJuYXZpZ2F0aW5nVG8iXSwibWFwcGluZ3MiOiJBQVFBLElBQU8sdUJBQXVCLFdBQVcsdUJBQXVCLENBQUMsQ0FBQTtBQUtqRSxJQUFJLFNBQVMsR0FBRyxJQUFJLHVCQUF1QixDQUFDLGlCQUFpQixFQUFFLENBQUM7QUFDaEUsc0JBQTZCLElBQWdDO0lBQ3pEQSxJQUFJQSxJQUFJQSxHQUFvQkEsSUFBSUEsQ0FBQ0EsTUFBTUEsQ0FBQ0E7SUFDeENBLElBQUlBLENBQUNBLGNBQWNBLEdBQUdBLFNBQVNBLENBQUNBO0lBRWhDQSxTQUFTQSxDQUFDQSxPQUFPQSxFQUFFQSxDQUFDQTtBQUN4QkEsQ0FBQ0E7QUFMZSxvQkFBWSxlQUszQixDQUFBIn0=

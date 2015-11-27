@@ -40,7 +40,7 @@ export function showApplicationBar() {
 
 
 function androidOptionSelected(args: frameModule.AndroidOptionEventData) {
-    if (args.item.getItemId() === (<any>android).R.id.home) {
+    if (args.item.getItemId() === (<any>global.android).R.id.home) {
         navigationModule.goBack();
         args.handled = true;
     }

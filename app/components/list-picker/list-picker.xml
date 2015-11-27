@@ -1,6 +1,5 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd"
-      loaded="pageLoaded"
-      navigatedTo="navigatedTo" >
+      navigatingTo="navigatingTo" >
   <Page.actionBar>
     <ActionBar>
       <ActionBar.actionItems>

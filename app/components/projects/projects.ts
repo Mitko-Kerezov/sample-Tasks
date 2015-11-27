@@ -12,7 +12,7 @@ import serviceModule = require("../../utils/service")
 import viewsModule = require("../../utils/views")
 
 var viewModel = new projectsViewModelModule.ProjectsViewModel();
-export function navigatedTo(args: observableModule.EventData) {
+export function navigatingTo(args: observableModule.EventData) {
     var page = <pageModule.Page>args.object;
     page.bindingContext = viewModel;
 

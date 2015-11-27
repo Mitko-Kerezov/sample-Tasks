@@ -1,10 +1,10 @@
 var viewModel;
-function navigatedTo(args) {
+function navigatingTo(args) {
     var page = args.object;
     viewModel = page.navigationContext;
     page.bindingContext = viewModel;
 }
-exports.navigatedTo = navigatedTo;
+exports.navigatingTo = navigatingTo;
 function itemTap(args) {
     var view = args.view;
     viewModel.selectItem(view.bindingContext);
@@ -14,3 +14,4 @@ function doneMenuItemTap(args) {
     viewModel.done();
 }
 exports.doneMenuItemTap = doneMenuItemTap;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGlzdC1waWNrZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJsaXN0LXBpY2tlci50cyJdLCJuYW1lcyI6WyJuYXZpZ2F0aW5nVG8iLCJpdGVtVGFwIiwiZG9uZU1lbnVJdGVtVGFwIl0sIm1hcHBpbmdzIjoiQUFRQSxJQUFJLFNBQXdELENBQUM7QUFDN0Qsc0JBQTZCLElBQWdDO0lBQ3pEQSxJQUFJQSxJQUFJQSxHQUFvQkEsSUFBSUEsQ0FBQ0EsTUFBTUEsQ0FBQ0E7SUFDeENBLFNBQVNBLEdBQWtEQSxJQUFJQSxDQUFDQSxpQkFBaUJBLENBQUNBO0lBQ2xGQSxJQUFJQSxDQUFDQSxjQUFjQSxHQUFHQSxTQUFTQSxDQUFDQTtBQUNwQ0EsQ0FBQ0E7QUFKZSxvQkFBWSxlQUkzQixDQUFBO0FBRUQsaUJBQXdCLElBQWtDO0lBQ3REQyxJQUFJQSxJQUFJQSxHQUFvQkEsSUFBSUEsQ0FBQ0EsSUFBSUEsQ0FBQ0E7SUFDdENBLFNBQVNBLENBQUNBLFVBQVVBLENBQXFDQSxJQUFJQSxDQUFDQSxjQUFjQSxDQUFDQSxDQUFDQTtBQUNsRkEsQ0FBQ0E7QUFIZSxlQUFPLFVBR3RCLENBQUE7QUFFRCx5QkFBZ0MsSUFBZ0M7SUFDNURDLFNBQVNBLENBQUNBLElBQUlBLEVBQUVBLENBQUNBO0FBQ3JCQSxDQUFDQTtBQUZlLHVCQUFlLGtCQUU5QixDQUFBIn0=

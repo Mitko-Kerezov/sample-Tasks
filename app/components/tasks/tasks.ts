@@ -8,7 +8,7 @@ import tasksViewModelModule = require("./tasks-view-model")
 import viewTaskViewModelModule = require("../view-task/view-task-view-model")
 
 var viewModel = new tasksViewModelModule.TasksViewModel();
-export function navigatedTo(args: observableModule.EventData) {
+export function navigatingTo(args: observableModule.EventData) {
     var page = <pageModule.Page>args.object;
     page.bindingContext = viewModel;
 

@@ -19,24 +19,26 @@
 		"example"
 	],
 	"author": "Valio Stoychev",
-	"license": "BSD",
+	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/NativeScript/sample-Tasks/issues"
 	},
 	"homepage": "https://github.com/NativeScript/sample-Tasks",
 	"devDependencies": {
-		"typescript": "1.5.3"
+		"nativescript-dev-typescript": "^0.2.2",
+		"typescript": "^1.6.2"
 	},
 	"nativescript": {
 		"id": "org.nativescript.sampleTasks",
 		"tns-ios": {
-			"version": "1.4.0"
+			"version": "1.5.0"
 		},
 		"tns-android": {
-			"version": "1.4.0"
+			"version": "1.5.0"
 		}
 	},
 	"dependencies": {
-		"tns-core-modules": "1.4.0"
+		"sample-tasks-app-options": "file:app_options",
+		"tns-core-modules": "1.5.0"
 	}
 }

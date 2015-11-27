@@ -1,10 +1,10 @@
 var viewModel;
-function navigatedTo(args) {
+function navigatingTo(args) {
     var page = args.object;
     viewModel = page.navigationContext;
     page.bindingContext = viewModel;
 }
-exports.navigatedTo = navigatedTo;
+exports.navigatingTo = navigatingTo;
 function doneMenuItemTap(args) {
     viewModel.done();
 }

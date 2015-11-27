@@ -1,11 +1,11 @@
 var viewModel;
-function navigatedTo(args) {
+function navigatingTo(args) {
     var page = args.object;
     viewModel = page.navigationContext;
     page.bindingContext = null;
     page.bindingContext = viewModel;
 }
-exports.navigatedTo = navigatedTo;
+exports.navigatingTo = navigatingTo;
 function saveButtonTap() {
     viewModel.save();
 }
@@ -14,3 +14,4 @@ function deleteButtonTap() {
     viewModel.del();
 }
 exports.deleteButtonTap = deleteButtonTap;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWRpdC1wcm9qZWN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiZWRpdC1wcm9qZWN0LnRzIl0sIm5hbWVzIjpbIm5hdmlnYXRpbmdUbyIsInNhdmVCdXR0b25UYXAiLCJkZWxldGVCdXR0b25UYXAiXSwibWFwcGluZ3MiOiJBQVNBLElBQUksU0FBMEQsQ0FBQztBQUMvRCxzQkFBNkIsSUFBZ0M7SUFDekRBLElBQUlBLElBQUlBLEdBQW9CQSxJQUFJQSxDQUFDQSxNQUFNQSxDQUFDQTtJQUN4Q0EsU0FBU0EsR0FBR0EsSUFBSUEsQ0FBQ0EsaUJBQWlCQSxDQUFDQTtJQUNuQ0EsSUFBSUEsQ0FBQ0EsY0FBY0EsR0FBR0EsSUFBSUEsQ0FBQ0E7SUFDM0JBLElBQUlBLENBQUNBLGNBQWNBLEdBQUdBLFNBQVNBLENBQUNBO0FBQ3BDQSxDQUFDQTtBQUxlLG9CQUFZLGVBSzNCLENBQUE7QUFFRDtJQUNJQyxTQUFTQSxDQUFDQSxJQUFJQSxFQUFFQSxDQUFDQTtBQUNyQkEsQ0FBQ0E7QUFGZSxxQkFBYSxnQkFFNUIsQ0FBQTtBQUVEO0lBQ0lDLFNBQVNBLENBQUNBLEdBQUdBLEVBQUVBLENBQUNBO0FBQ3BCQSxDQUFDQTtBQUZlLHVCQUFlLGtCQUU5QixDQUFBIn0=

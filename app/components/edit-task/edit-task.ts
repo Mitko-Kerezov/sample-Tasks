@@ -8,7 +8,7 @@ import navigationModule = require("../../utils/navigation");
 import viewsModule = require("../../utils/views");
 
 var viewModel: editTaskViewModelModule.EditTaskViewModel;
-export function navigatedTo(args: observableModule.EventData) {
+export function navigatingTo(args: observableModule.EventData) {
     var page = <pageModule.Page>args.object;
     viewModel = page.navigationContext;
     page.bindingContext = null;

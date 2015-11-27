@@ -1,6 +1,6 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd"
       xmlns:et="components/edit-task"
-      navigatedTo="navigatedTo">
+      navigatingTo="navigatingTo">
   <Page.actionBar>
     <ActionBar>
       <ActionBar.actionItems>
