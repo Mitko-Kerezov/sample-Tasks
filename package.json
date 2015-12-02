@@ -26,7 +26,7 @@
 	"homepage": "https://github.com/NativeScript/sample-Tasks",
 	"devDependencies": {
 		"nativescript-dev-typescript": "^0.2.2",
-		"typescript": "^1.6.2"
+		"typescript": "^1.7.3"
 	},
 	"nativescript": {
 		"id": "org.nativescript.sampleTasks",
