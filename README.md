@@ -46,3 +46,4 @@ We chose an app that we know will cover a lot of useful scenarios:
   4. Platform specific targeting for the Android FAB button       
 
 Please read the series of articles that explain how this application is being implemented - https://www.nativescript.org/blog/nativescript-open-source-sample---tasks
+![](https://ga-beacon.appspot.com/UA-111455-24/nativescript/sample-Tasks?pixel) 
