@@ -8,9 +8,14 @@ Use this application to find-out how to implement common mobile scenarios with N
 
 ## Running the sample
 
-1. Make sure you have the [NativeScript Command-line Interface](https://www.npmjs.com/package/nativescript) installed as well as all the prerequisites for the NativeScript development, described in the package page.
+1. Make sure you have the [NativeScript Command Line Interface](https://www.npmjs.com/package/nativescript) installed as well as all the prerequisites for the NativeScript development, described in the [installation guide](https://docs.nativescript.org/setup/quick-setup#the-nativescript-cli).
+2. Clone the repo:
 
-2. Run the project.
+    ```
+    git clone https://github.com/NativeScript/sample-Tasks.git
+    cd sample-Tasks
+    ```
+3. Run the project.
 
     `tns run ios|android [--emulator]`
 
